@@ -118,6 +118,24 @@ input[type=button] {
   margin-right: .3rem;
 }
 
+li a,
+a li {
+  color: #009fe3;
+}
+
+a li {
+  margin-bottom: .5rem;
+}
+
+li a:hover,
+a li:hover {
+  color: #17baff;
+}
+
+li a:first-child {
+  margin-left: 1.5rem;
+}
+
 .btn-green {
   background: #009453;
 }

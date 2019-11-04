@@ -29,3 +29,21 @@
     color: $blue;
     margin-right: .3rem;
 }
+
+li a,
+a li {
+    color: $blue;
+}
+
+a li {
+    margin-bottom: .5rem;
+}
+
+li a:hover,
+a li:hover {
+    color: lighten($blue, 10%);
+}
+
+li a:first-child {
+    margin-left: 1.5rem;
+}
