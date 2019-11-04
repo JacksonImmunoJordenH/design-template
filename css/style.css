@@ -1,1 +1,73 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+caption {
+  font-size: .75rem;
+}
+
+.jir-table h2 {
+  font-size: 1.5rem;
+  padding: 15px 14px;
+  margin: 0;
+}
+
+.jir-table p {
+  font-size: .9rem;
+}
+
+.jir-table {
+  margin-bottom: 4rem;
+}
+
+table {
+  color: #fff;
+}
+
+th {
+  padding: 10px 14px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+td,
+caption {
+  padding: 7px 14px;
+}
+
+tr:nth-of-type(2n+2) td:nth-of-type(2n + 2) {
+  background: #d4edfc;
+}
+
+tr:nth-of-type(2n+1) td:nth-of-type(2n + 2) {
+  background: #bce3fa;
+}
+
+td:nth-of-type(2n + 2) {
+  color: #595959;
+}
+
+.anti-alpaca-table tr:nth-of-type(2n + 2) {
+  background: #00d175;
+}
+
+.anti-alpaca-table tr:nth-of-type(2n + 1) {
+  background: #00b867;
+}
+
+.anti-alpaca-table tr:first-of-type {
+  background: #009453;
+}
+
+.blue tr:nth-of-type(2n + 2) {
+  background: #21bdff;
+}
+
+.blue tr:nth-of-type(2n + 1) {
+  background: #00adf7;
+}
+
+.blue tr:first-of-type {
+  background: #009fe3;
+}
+/*# sourceMappingURL=style.css.map */

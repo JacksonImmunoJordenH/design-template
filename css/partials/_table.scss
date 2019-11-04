@@ -1,0 +1,23 @@
+.anti-alpaca-table tr:nth-of-type(2n + 2) {
+    background: lighten($green, 12%);
+}
+
+.anti-alpaca-table tr:nth-of-type(2n + 1) {
+    background: lighten($green, 7%);
+}
+
+.anti-alpaca-table tr:first-of-type {
+    background: $green;
+}
+
+.blue tr:nth-of-type(2n + 2) {
+    background: lighten($blue, 12%);
+}
+
+.blue tr:nth-of-type(2n + 1) {
+    background: lighten($blue, 4%);
+}
+
+.blue tr:first-of-type {
+    background: $blue;
+}

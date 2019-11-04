@@ -1,0 +1,48 @@
+body {
+    font-family: $openSans;
+}
+
+caption {
+    font-size: .75rem;
+}
+
+.jir-table h2 {
+    font-size: 1.5rem;
+    padding: 15px 14px;
+    margin: 0;
+}
+
+.jir-table p {
+    font-size: .9rem;
+}
+
+.jir-table {
+    margin-bottom: 4rem;
+}
+
+table {
+    color: #fff;
+}
+
+th {
+    padding: 10px 14px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+td,
+caption {
+    padding: 7px 14px;
+}
+
+tr:nth-of-type(2n+2) td:nth-of-type(2n + 2) {
+    background: $lightBlue;
+}
+
+tr:nth-of-type(2n+1) td:nth-of-type(2n + 2) {
+    background: darken($lightBlue, 5%);
+}
+
+td:nth-of-type(2n + 2) {
+    color: lighten(#000, 35%);
+}
