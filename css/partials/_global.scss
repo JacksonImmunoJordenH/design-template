@@ -2,6 +2,9 @@ body {
     font-family: $openSans;
 }
 
+//\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+//\\\\\\ TABLE STYLING \\\\\\\\\\\\\\\\\\\
+//\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 caption {
     font-size: .75rem;
 }
@@ -45,4 +48,22 @@ tr:nth-of-type(2n+1) td:nth-of-type(2n + 2) {
 
 td:nth-of-type(2n + 2) {
     color: lighten(#000, 35%);
+}
+
+//\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+//\\\\\\\\\\\\\\ LIST STYLING \\\\\\\\\\\\\\\\\\\\\\\\
+//\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+li {
+    color: $navy;
+}
+
+li i {
+    transform: rotate(-90deg);
+    color: $blue;
 }

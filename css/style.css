@@ -47,6 +47,21 @@ td:nth-of-type(2n + 2) {
   color: #595959;
 }
 
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+li {
+  color: #00172b;
+}
+
+li i {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  color: #009fe3;
+}
+
 .anti-alpaca-table tr:nth-of-type(2n + 2) {
   background: #00d175;
 }
@@ -69,5 +84,9 @@ td:nth-of-type(2n + 2) {
 
 .blue tr:first-of-type {
   background: #009fe3;
+}
+
+.bullet-list h2 {
+  font-size: 1.7rem;
 }
 /*# sourceMappingURL=style.css.map */
