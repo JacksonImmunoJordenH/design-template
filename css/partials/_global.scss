@@ -65,5 +65,16 @@ li {
 
 li i {
     transform: rotate(-90deg);
-    color: $blue;
+    font-size: .95rem;
+}
+
+//\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+//\\\\\\\\\ BUTTON STYLING \\\\\\\\\\\\\\\\\\\\\\\\\
+//\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+input[type=button] {
+    padding: 15px 20px;
+    border: none;
+    color: #fff;
+    margin: 1rem 0 4rem;
 }

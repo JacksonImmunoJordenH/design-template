@@ -1,3 +1,31 @@
 .bullet-list h2 {
     font-size: 1.7rem;
 }
+
+.list-green i {
+    color: $green;
+}
+
+.list-blue i {
+    color: $blue;
+}
+
+// \\\\\\\\\\\\\\\\\\\\
+// \\\\ LARGE LIST \\\\
+// \\\\\\\\\\\\\\\\\\\\
+
+.large-list {
+
+    li:nth-of-type(2n+2) {
+        margin-bottom: .5rem;
+    }
+
+    li:nth-of-type(2n+1) {
+        margin-bottom: .2rem;
+    }
+}
+
+.large-list i {
+    color: $blue;
+    margin-right: .3rem;
+}

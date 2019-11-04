@@ -59,7 +59,14 @@ li {
 li i {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  color: #009fe3;
+  font-size: .95rem;
+}
+
+input[type=button] {
+  padding: 15px 20px;
+  border: none;
+  color: #fff;
+  margin: 1rem 0 4rem;
 }
 
 .anti-alpaca-table tr:nth-of-type(2n + 2) {
@@ -88,5 +95,42 @@ li i {
 
 .bullet-list h2 {
   font-size: 1.7rem;
+}
+
+.list-green i {
+  color: #009453;
+}
+
+.list-blue i {
+  color: #009fe3;
+}
+
+.large-list li:nth-of-type(2n+2) {
+  margin-bottom: .5rem;
+}
+
+.large-list li:nth-of-type(2n+1) {
+  margin-bottom: .2rem;
+}
+
+.large-list i {
+  color: #009fe3;
+  margin-right: .3rem;
+}
+
+.btn-green {
+  background: #009453;
+}
+
+.btn-green:hover {
+  background: #00854a;
+}
+
+.btn-blue {
+  background: #009fe3;
+}
+
+.btn-blue:hover {
+  background: #0094d4;
 }
 /*# sourceMappingURL=style.css.map */
