@@ -14,29 +14,13 @@
 // \\\\ LARGE LIST \\\\
 // \\\\\\\\\\\\\\\\\\\\
 
-.large-list {
-
-    li:nth-of-type(2n+2) {
-        margin-bottom: .5rem;
-    }
-
-    li:nth-of-type(2n+1) {
-        margin-bottom: .2rem;
-    }
-}
-
-.large-list i {
-    color: $blue;
-    margin-right: .3rem;
-}
-
 li a,
 a li {
     color: $blue;
 }
 
 a li {
-    margin-bottom: .5rem;
+    margin-bottom: .7rem;
 }
 
 li a:hover,
@@ -46,4 +30,20 @@ a li:hover {
 
 li a:first-child {
     margin-left: 1.5rem;
+}
+
+.large-list {
+
+    li:nth-of-type(2n+2) {
+        margin-bottom: .7rem;
+    }
+
+    li:nth-of-type(2n+1) {
+        padding-bottom: .2rem;
+    }
+}
+
+.large-list i {
+    color: $blue;
+    margin-right: .3rem;
 }
