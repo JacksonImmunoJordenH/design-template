@@ -264,8 +264,9 @@ li a:first-child {
 }
 
 .slick-dots button {
+  padding: 0;
   border: none;
-  width: 10px;
+  width: 15px;
   height: 15px;
   border-radius: 50%;
   margin: 0 10px;
