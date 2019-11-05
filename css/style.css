@@ -165,6 +165,10 @@ li a:first-child {
   background: #fb7d10;
 }
 
+.inform-table {
+  margin-bottom: 3rem;
+}
+
 .inform-table th,
 .inform-table td {
   padding: 10px 20px;
@@ -183,16 +187,17 @@ li a:first-child {
 
 .inform-table tr:first-child th {
   background: #009fe3;
+  color: #fff;
 }
 
 .inform-table th {
-  color: #fff;
+  color: #4d4d4d;
   font-weight: 400;
   font-size: 1.1rem;
 }
 
 .light-table th {
-  background: #21bdff;
+  background: #fedcbf;
 }
 
 .light-table td {
@@ -200,7 +205,7 @@ li a:first-child {
 }
 
 .dark-table th {
-  background: #00adf7;
+  background: #fed1ab;
 }
 
 .dark-table td {

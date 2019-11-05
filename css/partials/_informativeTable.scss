@@ -1,3 +1,7 @@
+.inform-table {
+    margin-bottom: 3rem;
+}
+
 .inform-table th,
 .inform-table td {
     padding: 10px 20px;
@@ -19,12 +23,13 @@
 
     th {
         background: $blue;
+        color: #fff;
     }
 }
 
 .inform-table {
     th {
-        color: #fff;
+        color: lighten(#000, 30%);
         font-weight: 400;
         font-size: 1.1rem;
     }
@@ -38,7 +43,7 @@
 
 .light-table {
     th {
-        background: lighten($blue, 12%);
+        background: lighten($orange, 40%);
     }
     td {
         background: $lightBlue;
@@ -47,7 +52,7 @@
 
 .dark-table {
     th {
-        background: lighten($blue, 4%);
+        background: lighten($orange, 36%);
     }
     td {
         background: darken($lightBlue, 5%);
