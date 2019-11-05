@@ -154,6 +154,17 @@ li a:first-child {
   background: #0094d4;
 }
 
+.btn-home {
+  background: #ed7004;
+  position: fixed;
+  right: 15px;
+  top: 0px;
+}
+
+.btn-home:hover {
+  background: #fb7d10;
+}
+
 .inform-table th,
 .inform-table td {
   padding: 10px 20px;
@@ -194,5 +205,76 @@ li a:first-child {
 
 .dark-table td {
   background: #bce3fa;
+}
+
+.slideshow {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 60%;
+}
+
+.slideshow-header {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.slide-container {
+  width: 400px;
+  font-size: .8rem;
+}
+
+.slide-container img {
+  padding: 10px 0;
+  margin-bottom: 20px;
+  width: auto;
+  height: 240px;
+  display: inline-block;
+}
+
+.slide-img-container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 2px solid #d4edfc;
+}
+
+.slide-key {
+  height: 150px !important;
+}
+
+.slide-container p {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.slick-dots {
+  width: 194px;
+  margin: 0 auto;
+}
+
+.slick-dots li {
+  display: inline-block;
+  font-size: 0;
+}
+
+.slick-dots button {
+  border: none;
+  width: 10px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 10px;
+  margin-top: 20px;
+  background: #bce3fa;
+}
+
+.slick-dots li.slick-active button {
+  padding: 10px;
+  background: #91d1f7;
 }
 /*# sourceMappingURL=style.css.map */
